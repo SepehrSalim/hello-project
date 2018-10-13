@@ -1,12 +1,7 @@
-// All Variables
-/*
-    Just a good multiline comment
-*/
-var name = "Sepehr";
-var lastname = "Salim";
-console.log(name + ' ' + lastname);
-var age = prompt ('How old are you?');
-console.log(age);
-var married = prompt ('Are you married?');
-console.log('Married = ' + married);
-alert('Name = ' + name);
+// All Variables /*     Just a good multiline comment */ const name = "Sepehr"; const lastname = "Salim"; const arr =
+const arr = [1,2,3,4,5,6]; 
+let arr2 = [];
+
+arr.forEach(cur => console.log(cur + 10));
+arr2 = arr.map(cur => cur * cur);
+console.log('New Array', arr2);
